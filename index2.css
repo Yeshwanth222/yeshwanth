@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:purple;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    width: 800px;
+    height: 400px;
+    box-shadow: 2px 4px 10px cyan;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+  }
